@@ -1,0 +1,137 @@
+@import "./small-screens-style.css";
+@import "./larger-screens.css";
+@import "./style-post.css";
+
+
+body{
+	background-color: #000008;
+	margin: 0px;
+	color: #f9f9fa;
+	letter-spacing: .2em;
+	font-family: "open-sans";
+	font-size: 16px;
+	line-height: 1.75em;
+}
+
+.navbar{
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-evenly;
+	border: solid 2px navy;
+}
+
+.navtext{
+	text-align: center;
+	line-height: 2.25em;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+a{
+	color: #f0f0fa;
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: #cccccc;
+}
+
+.container{
+	display: flex;
+	margin: auto;
+	width: 100vw;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: solid 2px yellow;
+}
+
+.content{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	margin: auto;
+	text-align: center;
+	border: solid 2px red;
+}
+
+.header {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	justify-content: center;
+	color: #f9f9fa;
+	font-weight: 100;
+	background-image: url("../images/ballet-portraits.jpg");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: solid 2px hotpink;
+}
+
+.headerbox{
+	margin: auto;
+	padding: 2px; 
+}
+
+.sidebar{
+	display: flex;
+	flex-direction: column;
+	margin: 3%;
+	padding: 3%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 5%;
+	grid-area: sd;
+	border: solid 2px snow;
+}
+
+.bloglistings{
+	display: grid;
+	margin: auto;
+	width: 100vw;
+	padding: 3%;
+	grid-area: main;
+	border: solid 2px blue;
+}
+
+.postlink{
+	margin: 2%;
+	border: 2%;
+}
+
+img.social{
+	width: 25px;
+	height: 25px;
+}
+button{
+	background-color: #000008;
+	color: #f9f9fa;
+}
+	
+.footer {
+	grid-area: ft;
+	align-items: center;
+	border-top: 1px solid #444;
+	border: solid 2px fuchsia;
+}
+
+#one{
+	border: solid 2px orange;
+}
+
+#two{
+	border: solid 2px green;
+}
+
+#three{
+	border: solid 2px darkgreen;
+}
+
+#four{
+	border: solid 2px tan;
+}

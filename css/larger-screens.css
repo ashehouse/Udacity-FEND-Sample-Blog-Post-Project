@@ -1,0 +1,15 @@
+/*Rules for tablets and larger screens*/
+/* For Larger Screens */
+@media (minwidth:769px);
+
+#topnavbar {
+    display: inherit;
+}
+
+.content{
+    grid-template-rows: 100%
+    grid-template-columns: 75% 1fr;
+    grid-tempate-area:
+    "main sd"
+    "ft ft";
+}

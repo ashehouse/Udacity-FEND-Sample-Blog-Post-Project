@@ -1,0 +1,19 @@
+/* For Small Screens */
+@media (maxwidth:768px);
+
+#topnavbar{
+    display: none;
+}
+
+.header{
+    height: 50vh;
+}
+
+.content{
+    grid-template-rows: 1fr 1fr 100px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "main"
+    "sd"
+    "ft";
+}
