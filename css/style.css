@@ -43,7 +43,6 @@ a:hover{
 
 .content{
 	display: grid;
-	border: solid 2px yellow;
 }
 
 .header {
@@ -55,12 +54,10 @@ a:hover{
 	background-position: center;
 	background-repeat: no-repeat;
 	grid-area: hd;
-	border: solid 2px hotpink;
 }
 
 .headerbox{
 	margin: auto;
-	border: solid 2px turquoise;
 }
 
 .sidebar{
@@ -68,13 +65,11 @@ a:hover{
 	flex-direction: column;
 	text-align: center;
 	grid-area: sd;
-	border: solid 2px snow;
 }
 
 .bloglistings{
 	grid-area: main;
 	text-align: center;
-	border: solid 2px blue;
 }
 
 img.social{
@@ -92,21 +87,4 @@ button{
 	text-align: center;
 	padding: 2%;
 	border-top: 1px solid #444;
-	border: solid 2px fuchsia;
-}
-
-#one{
-	border: solid 2px orange;
-}
-
-#two{
-	border: solid 2px green;
-}
-
-#three{
-	border: solid 2px darkgreen;
-}
-
-#four{
-	border: solid 2px tan;
 }
