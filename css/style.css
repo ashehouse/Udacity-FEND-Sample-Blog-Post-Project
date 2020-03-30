@@ -1,6 +1,7 @@
 /* To import the other css stylesheets*/
 @import "./small-screens-style.css";
 @import "./larger-screens.css";
+@import "./style-post.css";
 
 body{
 	background-color: #000008;
