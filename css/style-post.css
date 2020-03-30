@@ -1,2 +1,4 @@
 @charset "UTF-8";
 @import "../css/style.css";
+@import "../css/small-screens-style.css";
+@import "../css/larger-screens.css";

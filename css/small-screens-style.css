@@ -1,19 +1,36 @@
-/* For Small Screens */
-@media (maxwidth:768px);
+/* For small screens - tablet and smaller */
 
-#topnavbar{
-    display: none;
-}
+@media(max-width: 768px) {
+    
+    .navtexttop{
+        display: none;
+    }
 
-.header{
-    height: 50vh;
-}
+    .content {
+        height: 100vh;
+        /* margin: auto; */
+        /* grid-template-columns: auto; */
+        grid-template-rows: 100vh repeat(4,auto) 1fr 200px;
+        grid-template-areas: 
+        "hd"
+        "main"
+        "main"
+        "main"
+        "main"
+        "sd"
+        "ft";
+    }
 
-.content{
-    grid-template-rows: 1fr 1fr 100px;
-    grid-template-columns: 100%;
-    grid-template-areas:
-    "main"
-    "sd"
-    "ft";
+
+    .bloglistings{
+        text-align: center;
+    }
+
+    .postlink{
+        padding: 5%;
+    }
+
+    .sidebar{
+        padding: 5%;
+    }
 }

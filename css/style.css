@@ -1,7 +1,6 @@
+/* To import the other css stylesheets*/
 @import "./small-screens-style.css";
 @import "./larger-screens.css";
-@import "./style-post.css";
-
 
 body{
 	background-color: #000008;
@@ -11,20 +10,24 @@ body{
 	font-family: "open-sans";
 	font-size: 16px;
 	line-height: 1.75em;
+	font-weight: 100;
 }
 
-.navbar{
-	width: 100%;
-	flex-direction: row;
-	justify-content: space-evenly;
-	border: solid 2px navy;
-}
-
-.navtext{
-	text-align: center;
-	line-height: 2.25em;
+h1 {
 	text-transform: uppercase;
-	font-size: 12px;
+	letter-spacing: .6em;
+	font-weight: 100;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.navtextbottom{
+	text-transform: uppercase;
+	margin: 5%;
+	font-size: 14px;
 }
 
 a{
@@ -37,71 +40,40 @@ a:hover{
 	color: #cccccc;
 }
 
-.container{
-	display: flex;
-	margin: auto;
-	width: 100vw;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border: solid 2px yellow;
-}
-
 .content{
 	display: grid;
-	align-items: center;
-	justify-content: center;
-	width: 100vw;
-	margin: auto;
-	text-align: center;
-	border: solid 2px red;
+	border: solid 2px yellow;
 }
 
 .header {
 	display: flex;
 	margin: 0px;
-	padding: 0px;
-	width: 100vw;
-	justify-content: center;
 	color: #f9f9fa;
-	font-weight: 100;
 	background-image: url("../images/ballet-portraits.jpg");
 	background-size: auto;
 	background-position: center;
 	background-repeat: no-repeat;
+	grid-area: hd;
 	border: solid 2px hotpink;
 }
 
 .headerbox{
 	margin: auto;
-	padding: 2px; 
+	border: solid 2px turquoise;
 }
 
 .sidebar{
 	display: flex;
 	flex-direction: column;
-	margin: 3%;
-	padding: 3%;
-	justify-content: center;
 	text-align: center;
-	align-items: center;
-	padding: 5%;
 	grid-area: sd;
 	border: solid 2px snow;
 }
 
 .bloglistings{
-	display: grid;
-	margin: auto;
-	width: 100vw;
-	padding: 3%;
 	grid-area: main;
+	text-align: center;
 	border: solid 2px blue;
-}
-
-.postlink{
-	margin: 2%;
-	border: 2%;
 }
 
 img.social{
@@ -115,7 +87,9 @@ button{
 	
 .footer {
 	grid-area: ft;
-	align-items: center;
+	margin: auto;
+	text-align: center;
+	padding: 2%;
 	border-top: 1px solid #444;
 	border: solid 2px fuchsia;
 }
